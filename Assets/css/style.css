@@ -13,10 +13,26 @@
 #new_games{
     background-color: var(--bg_dark_gray);
 }
+#playplus{
+    background-color: var(--bg_light_gray);
+}
+#playnow{
+    background-color: var(--bg_dark_blu);
+}
+
+footer{
+
+    background-color: var(--bg_primary_blu_light);
+}
 /* #region debug */
 .debug > header{
     height: 100px;
     background-color: red;
+}
+
+.debug > footer{
+    height: 300px;
+  
 }
 
 
