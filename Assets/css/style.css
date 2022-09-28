@@ -8,3 +8,23 @@
     --bg_dark_blu: #161c3b;
 
 }
+
+
+/* #region debug */
+.debug > header{
+    height: 100px;
+    background-color: red;
+}
+
+
+.debug .jumbotron{
+    height: 600px;
+    background-color: blue;
+}
+
+.debug [class^="col"]{
+    height: 100px;
+background-color: gray;
+}
+
+/* #endregion debug */
