@@ -10,6 +10,9 @@
 }
 
 
+#new_games{
+    background-color: var(--bg_dark_gray);
+}
 /* #region debug */
 .debug > header{
     height: 100px;
@@ -21,6 +24,12 @@
     height: 600px;
     background-color: blue;
 }
+
+.debug .play5{
+    height: 600px;
+    background-color: green;
+}
+
 
 .debug [class^="col"]{
     height: 100px;
