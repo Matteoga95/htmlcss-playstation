@@ -19,7 +19,12 @@
 #playnow{
     background-color: var(--bg_dark_blu);
 }
-
+#returnal_jumbo{
+    background-image:url('./assets/img/returnal-listing-thumb-01-ps5.jpg');
+}
+#It_Takes_Two_jumbo{
+    background-image: url('./assets/img/it-takes-two-hero-banner-desktop.jpg');
+}
 footer{
 
     background-color: var(--bg_primary_blu_light);
@@ -38,17 +43,23 @@ footer{
     font-size: 28px;
 }
 
-#returnal_jumbo{
-    background-image:url('./assets/img/returnal-listing-thumb-01-ps5.jpg');
-}
-#It_Takes_Two_jumbo{
-    background-image: url('./assets/img/it-takes-two-hero-banner-desktop.jpg');
-}
+
 .dark_bt{
     background-color: var(--bg_dark_gray);
     color: white;
     border: none;
     border-radius: 20px;
+
+}
+
+.opacity_bt{
+    background-color: rgba(190,188,187,255,0.3);
+    padding: 8px;
+    color: var(--bg_primary_blu_light);
+font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    
     
 
 }
