@@ -24,11 +24,22 @@ footer{
 
     background-color: var(--bg_primary_blu_light);
 }
-/* #region debug */
-.debug > header{
-    height: 100px;
-    background-color: red;
+
+.w_30{
+    width: 10%;
+   
 }
+
+.dark_bt{
+    background-color: var(--bg_dark_gray);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+/* #region debug */
+
 
 .debug > footer{
     height: 300px;
