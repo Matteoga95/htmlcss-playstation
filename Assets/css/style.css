@@ -30,8 +30,27 @@ footer{
    
 }
 
+#returnal_jumbo{
+    background-image:url('./assets/img/returnal-listing-thumb-01-ps5.jpg');
+}
 .dark_bt{
     background-color: var(--bg_dark_gray);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+
+.jumbotron_content{
+   position: absolute;
+   bottom: 20%;
+   left: 10%;
+   width: 50%;
+}
+
+.red_bt{
+    background-color: var(--bg_bt_red);
     color: white;
     border: none;
     border-radius: 20px;
@@ -46,11 +65,11 @@ footer{
   
 }
 
-
+/* 
 .debug .jumbotron{
     height: 600px;
     background-color: blue;
-}
+} */
 
 .debug .play5{
     height: 600px;
@@ -58,9 +77,5 @@ footer{
 }
 
 
-.debug [class^="col"]{
-    height: 100px;
-background-color: gray;
-}
 
 /* #endregion debug */
