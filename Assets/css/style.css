@@ -26,7 +26,7 @@ footer{
 }
 
 .w_30{
-    width: 10%;
+    width: 30%;
    
 }
 
@@ -41,6 +41,9 @@ footer{
 #returnal_jumbo{
     background-image:url('./assets/img/returnal-listing-thumb-01-ps5.jpg');
 }
+#It_Takes_Two_jumbo{
+    background-image: url('./assets/img/it-takes-two-hero-banner-desktop.jpg');
+}
 .dark_bt{
     background-color: var(--bg_dark_gray);
     color: white;
@@ -50,13 +53,22 @@ footer{
 
 }
 
+.jumbotron{
+    height: 400px;
+}
 .jumbotron_content{
    position: absolute;
    bottom: 20%;
    left: 10%;
    width: 50%;
 }
+.jumbotron_content2{
+    position: absolute;
+top: 5%;
+left: 5%;
 
+    width: 80%;
+ }
 .red_bt{
     background-color: var(--bg_bt_red);
     color: white;
